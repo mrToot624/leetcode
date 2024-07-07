@@ -1,0 +1,29 @@
+func carPooling(trips [][]int, capacity int) bool {
+	nums, diff := make([]int, 1000), make([]int, 1000)
+
+	for _, trip := range trips {
+		start, dest := trip[1], trip[2]
+		numPassengers := trip[0]
+
+		diff[start] += numPassengers
+		diff[dest] -= numPassengers
+	}
+
+	nums[0] = diff[0]
+	for i := 1; i < len(nums); i++ {
+		nums[i] = nums[i-1] + diff[i]
+		if nums[i] > capacity {
+			return false
+		}
+	}
+	return true
+}
+
+//total_testcases:59
+//total_correct:55
+//input_formatted:[[9,0,1],[3,3,7]]
+4
+//expected_output:false
+//code_output:true
+//last_testcase:[[9,0,1],[3,3,7]]
+4

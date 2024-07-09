@@ -3,6 +3,17 @@
   <component name="LeetcodeEditorlabuladong">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1038]从二叉搜索树到更大和树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[1038]从二叉搜索树到更大和树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1038" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1038]从二叉搜索树到更大和树.go" />
+              <option name="titleSlug" value="binary-search-tree-to-greater-sum-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[104]二叉树的最大深度.go">
           <value>
             <LeetcodeEditor>
@@ -242,6 +253,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[226]翻转二叉树.go" />
               <option name="titleSlug" value="invert-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[230]二叉搜索树中第K小的元素.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[230]二叉搜索树中第K小的元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn230" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[230]二叉搜索树中第K小的元素.go" />
+              <option name="titleSlug" value="kth-smallest-element-in-a-bst" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -495,6 +517,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[52]N 皇后 II.go" />
               <option name="titleSlug" value="n-queens-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[538]把二叉搜索树转换为累加树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[538]把二叉搜索树转换为累加树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn538" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[538]把二叉搜索树转换为累加树.go" />
+              <option name="titleSlug" value="convert-bst-to-greater-tree" />
             </LeetcodeEditor>
           </value>
         </entry>

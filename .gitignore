@@ -17,7 +17,8 @@ Thumbs.db
 
 # 忽略 IDE/编辑器生成的文件
 .vscode/
-.idea/
+.idea/*
+!.idea/labuladong/
 *.sublime-project
 *.sublime-workspace
 

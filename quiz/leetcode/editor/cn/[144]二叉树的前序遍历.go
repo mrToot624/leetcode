@@ -9,27 +9,39 @@ package main
  *     Right *TreeNode
  * }
  */
-
-var preOrderRes []int
-
 func preorderTraversal(root *TreeNode) []int {
-	// have to add this to forcibly remove results from last test case
-	// it seems that these global values will also become global in leetcode's submission system, not per test scope
-	preOrderRes = nil
+	var res []int
+	var stack []*TreeNode
 
-	traverse_144(root)
-	return preOrderRes
+	cur := root
+	for cur != nil || len(stack) > 0 {
+		for cur != nil {
+			stack = append(stack, cur)
+			res = append(res, cur.Val)
+			cur = cur.Left
+		}
+		cur = stack[len(stack)-1].Right
+		stack = stack[:len(stack)-1]
+	}
+	return res
 }
 
-func traverse_144(root *TreeNode) {
+func recursivePreorderTraversal(root *TreeNode) []int {
+	var res []int
+	traverse_144(root, &res)
+	return res
+}
+
+func traverse_144(root *TreeNode, res *[]int) {
 	if root == nil {
 		return
 	}
 
-	preOrderRes = append(preOrderRes, root.Val)
-	traverse_144(root.Left)
-	traverse_144(root.Right)
+	*res = append(*res, root.Val)
+	traverse_144(root.Left, res)
+	traverse_144(root.Right, res)
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
 
 func splitPreorderTraversal(root *TreeNode) []int {

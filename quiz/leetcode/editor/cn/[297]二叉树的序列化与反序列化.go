@@ -28,7 +28,7 @@ type Codec struct {
 	builder *strings.Builder
 }
 
-func Constructor() Codec {
+func Constructor_297() Codec {
 	return Codec{builder: new(strings.Builder)}
 }
 

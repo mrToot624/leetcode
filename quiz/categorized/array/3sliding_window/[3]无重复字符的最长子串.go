@@ -16,7 +16,7 @@ package main
 //			left++
 //		}
 //
-//		res = max(res, right-left)
+//		res = max_3(preOrderRes, right-left)
 //	}
 //	return res
 //}
@@ -31,7 +31,7 @@ func lengthOfLongestSubstring(s string) int {
 		if !found {
 			window[toAdd] = struct{}{}
 		} else {
-			res = max(res, right-left)
+			res = max_3(res, right-left)
 			for s[left] != toAdd {
 				delete(window, s[left])
 				left++
@@ -40,10 +40,10 @@ func lengthOfLongestSubstring(s string) int {
 		}
 		right++
 	}
-	return max(res, right-left)
+	return max_3(res, right-left)
 }
 
-func max(a, b int) int {
+func max_3(a, b int) int {
 	if a < b {
 		return b
 	}

@@ -21,7 +21,7 @@ func findAnagrams(s string, p string) []int {
 		}
 		right++
 
-		for right-left >= len(p) {
+		if right-left == len(p) {
 			if satisfied == len(target) {
 				res = append(res, left)
 			}

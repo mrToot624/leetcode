@@ -3,16 +3,14 @@ package main
 //leetcode submit region begin(Prohibit modification and deletion)
 func checkInclusion(s1 string, s2 string) bool {
 	left, right := 0, 0
-	targetCount, window := make(map[rune]int), make(map[rune]int)
-
-	for _, c := range s1 {
-		targetCount[c]++
+	targetCount, window := make(map[byte]int), make(map[byte]int)
+	for i := 0; i < len(s1); i++ {
+		targetCount[s1[i]]++
 	}
 
-	runes := []rune(s2)
 	var satisfied int
 	for right < len(s2) {
-		toAdd := runes[right]
+		toAdd := s2[right]
 		if _, ok := targetCount[toAdd]; ok {
 			window[toAdd]++
 			if window[toAdd] == targetCount[toAdd] {
@@ -21,17 +19,17 @@ func checkInclusion(s1 string, s2 string) bool {
 		}
 		right++
 
-		for right-left >= len(s1) {
+		if right-left == len(s1) {
 			if satisfied == len(targetCount) {
 				return true
 			}
 
-			toRemove := runes[left]
+			toRemove := s2[left]
 			if _, ok := targetCount[toRemove]; ok {
-				window[toRemove]--
-				if window[toRemove] < targetCount[toRemove] {
+				if window[toRemove] == targetCount[toRemove] {
 					satisfied--
 				}
+				window[toRemove]--
 			}
 			left++
 		}

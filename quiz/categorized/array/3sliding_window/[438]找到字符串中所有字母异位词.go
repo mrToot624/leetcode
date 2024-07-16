@@ -3,17 +3,16 @@ package main
 //leetcode submit region begin(Prohibit modification and deletion)
 func findAnagrams(s string, p string) []int {
 	left, right := 0, 0
-	target, window := make(map[rune]int), make(map[rune]int)
-	for _, c := range p {
-		target[c]++
+	target, window := make(map[byte]int), make(map[byte]int)
+	for i := 0; i < len(p); i++ {
+		target[p[i]]++
 	}
 
-	runes := []rune(s)
 	var satisfied int
 	var res []int
 
 	for right < len(s) {
-		toAdd := runes[right]
+		toAdd := s[right]
 		if _, ok := target[toAdd]; ok {
 			window[toAdd]++
 			if window[toAdd] == target[toAdd] {
@@ -22,12 +21,12 @@ func findAnagrams(s string, p string) []int {
 		}
 		right++
 
-		for right-left >= len(p) {
+		if right-left == len(p) {
 			if satisfied == len(target) {
 				res = append(res, left)
 			}
 
-			toRemove := runes[left]
+			toRemove := s[left]
 			if _, ok := target[toRemove]; ok {
 				if window[toRemove] == target[toRemove] {
 					satisfied--

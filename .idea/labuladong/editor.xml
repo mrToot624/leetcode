@@ -267,6 +267,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[222]完全二叉树的节点个数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[222]完全二叉树的节点个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn222" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[222]完全二叉树的节点个数.go" />
+              <option name="titleSlug" value="count-complete-tree-nodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[226]翻转二叉树.go">
           <value>
             <LeetcodeEditor>
@@ -286,6 +297,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[230]二叉搜索树中第K小的元素.go" />
               <option name="titleSlug" value="kth-smallest-element-in-a-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[235]二叉搜索树的最近公共祖先.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[235]二叉搜索树的最近公共祖先.md" />
+              <option name="frontendQuestionId" value="leetcode.cn235" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[235]二叉搜索树的最近公共祖先.go" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[236]二叉树的最近公共祖先.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[236]二叉树的最近公共祖先.md" />
+              <option name="frontendQuestionId" value="leetcode.cn236" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[236]二叉树的最近公共祖先.go" />
+              <option name="titleSlug" value="lowest-common-ancestor-of-a-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>

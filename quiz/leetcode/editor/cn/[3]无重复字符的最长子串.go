@@ -3,7 +3,7 @@ package main
 //leetcode submit region begin(Prohibit modification and deletion)
 
 //func lengthOfLongestSubstring(s string) int {
-//	var preOrderRes, left, right int
+//	var res, left, right int
 //	window := make(map[byte]int)
 //
 //	for right < len(s) {
@@ -16,9 +16,9 @@ package main
 //			left++
 //		}
 //
-//		preOrderRes = max(preOrderRes, right-left)
+//		res = max_3(res, right-left)
 //	}
-//	return preOrderRes
+//	return res
 //}
 
 func lengthOfLongestSubstring(s string) int {
@@ -31,7 +31,7 @@ func lengthOfLongestSubstring(s string) int {
 		if !found {
 			window[toAdd] = struct{}{}
 		} else {
-			res = max(res, right-left)
+			res = max_3(res, right-left)
 			for s[left] != toAdd {
 				delete(window, s[left])
 				left++
@@ -40,13 +40,14 @@ func lengthOfLongestSubstring(s string) int {
 		}
 		right++
 	}
-	return max(res, right-left)
+	return max_3(res, right-left)
 }
 
-func max(a, b int) int {
+func max_3(a, b int) int {
 	if a < b {
 		return b
 	}
 	return a
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

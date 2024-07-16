@@ -19,7 +19,7 @@ func checkInclusion(s1 string, s2 string) bool {
 		}
 		right++
 
-		for right-left >= len(s1) {
+		if right-left == len(s1) {
 			if satisfied == len(targetCount) {
 				return true
 			}

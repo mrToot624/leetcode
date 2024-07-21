@@ -1,67 +1,56 @@
 package main
 
-import "strings"
-
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 func solveNQueens(n int) [][]string {
 	var res [][]string
-
-	board := make([][]string, n)
-	for i := 0; i < n; i++ {
-		row := make([]string, n)
-		for j := 0; j < n; j++ {
-			row[j] = "."
-		}
-		board[i] = row
-	}
-
-	backtrack_51(board, &res, 0)
+	queens := make([]int, n)
+	column, diagonal1, diagonal2 := make(map[int]bool), make(map[int]bool), make(map[int]bool)
+	backtrack_51(queens, column, diagonal1, diagonal2, &res, 0)
 	return res
 }
 
-func backtrack_51(board [][]string, res *[][]string, level int) {
-	n := len(board)
+func backtrack_51(queens []int, column, diagonal1, diagonal2 map[int]bool, res *[][]string, level int) {
+	n := len(queens)
 	if level == n {
-		var compacted []string
-		for _, row := range board {
-			compacted = append(compacted, strings.Join(row, ""))
-		}
-		*res = append(*res, compacted)
+		*res = append(*res, generateBoard(queens))
 		return
 	}
 
 	for col := 0; col < n; col++ {
-		if isConflicted_51(board, level, col) {
+		if isConflicted_51(column, diagonal1, diagonal2, level, col) {
 			continue
 		}
 
-		board[level][col] = "Q"
-		backtrack_51(board, res, level+1)
-		board[level][col] = "."
+		column[col] = true
+		diagonal1[level-col] = true
+		diagonal2[level+col] = true
+		queens[level] = col
+		backtrack_51(queens, column, diagonal1, diagonal2, res, level+1)
+		queens[level] = -1
+		delete(diagonal2, level+col)
+		delete(diagonal1, level-col)
+		delete(column, col)
 	}
 }
 
-func isConflicted_51(board [][]string, level, col int) bool {
-	for i := 0; i < level; i++ {
-		if board[i][col] == "Q" {
-			return true
+func isConflicted_51(column, diagonal1, diagonal2 map[int]bool, row, col int) bool {
+	return column[col] || diagonal1[row-col] || diagonal2[row+col]
+}
+
+func generateBoard(queens []int) []string {
+	n := len(queens)
+	res := make([]string, n)
+	for row, col := range queens {
+		line := make([]byte, n)
+		for i := 0; i < n; i++ {
+			if i == col {
+				line[i] = 'Q'
+			} else {
+				line[i] = '.'
+			}
 		}
+		res[row] = string(line)
 	}
-
-
-	for i, j := level-1, col-1; i >= 0 && j >= 0; i, j = i-1, j-1 {
-		if board[i][j] == "Q" {
-			return true
-		}
-	}
-
-
-	for i, j := level-1, col+1; i >= 0 && j < len(board); i, j = i-1, j+1 {
-		if board[i][j] == "Q" {
-			return true
-		}
-	}
-
-	return false
+	return res
 }
 //leetcode submit region end(Prohibit modification and deletion)

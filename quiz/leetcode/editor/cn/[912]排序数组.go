@@ -65,10 +65,10 @@ func mergeSort(nums, tmp []int, start, end int) {
 	mergeSort(nums, tmp, start, mid)
 	mergeSort(nums, tmp, mid+1, end)
 
-	merge(nums, tmp, start, end)
+	merge_912(nums, tmp, start, end)
 }
 
-func merge(nums, tmp []int, start, end int) {
+func merge_912(nums, tmp []int, start, end int) {
 	for i := start; i <= end; i++ {
 		tmp[i] = nums[i]
 	}

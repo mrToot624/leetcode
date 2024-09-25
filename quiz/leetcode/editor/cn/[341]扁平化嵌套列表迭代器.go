@@ -31,7 +31,7 @@ type NestedIterator struct {
 	stack []*NestedInteger
 }
 
-func Constructor(nestedList []*NestedInteger) *NestedIterator {
+func Constructor_341(nestedList []*NestedInteger) *NestedIterator {
 	stack := append([]*NestedInteger{}, nestedList...)
 	return &NestedIterator{stack}
 }

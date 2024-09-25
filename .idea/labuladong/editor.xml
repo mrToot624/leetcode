@@ -201,6 +201,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[15]三数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[15]三数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn15" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[15]三数之和.go" />
+              <option name="titleSlug" value="3sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[160]相交链表.go">
           <value>
             <LeetcodeEditor>
@@ -220,6 +231,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[167]两数之和 II - 输入有序数组.go" />
               <option name="titleSlug" value="two-sum-ii-input-array-is-sorted" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[18]四数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[18]四数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn18" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[18]四数之和.go" />
+              <option name="titleSlug" value="4sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -333,6 +355,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[225]用队列实现栈.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[225]用队列实现栈.md" />
+              <option name="frontendQuestionId" value="leetcode.cn225" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[225]用队列实现栈.go" />
+              <option name="titleSlug" value="implement-stack-using-queues" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[226]翻转二叉树.go">
           <value>
             <LeetcodeEditor>
@@ -352,6 +385,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[230]二叉搜索树中第K小的元素.go" />
               <option name="titleSlug" value="kth-smallest-element-in-a-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[232]用栈实现队列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[232]用栈实现队列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn232" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[232]用栈实现队列.go" />
+              <option name="titleSlug" value="implement-queue-using-stacks" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -630,6 +674,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[48]旋转图像.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[48]旋转图像.md" />
+              <option name="frontendQuestionId" value="leetcode.cn48" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[48]旋转图像.go" />
+              <option name="titleSlug" value="rotate-image" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[493]翻转对.go">
           <value>
             <LeetcodeEditor>
@@ -696,6 +751,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[54]螺旋矩阵.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[54]螺旋矩阵.md" />
+              <option name="frontendQuestionId" value="leetcode.cn54" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[54]螺旋矩阵.go" />
+              <option name="titleSlug" value="spiral-matrix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[567]字符串的排列.go">
           <value>
             <LeetcodeEditor>
@@ -707,6 +773,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[59]螺旋矩阵 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[59]螺旋矩阵 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn59" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[59]螺旋矩阵 II.go" />
+              <option name="titleSlug" value="spiral-matrix-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[5]最长回文子串.go">
           <value>
             <LeetcodeEditor>
@@ -715,6 +792,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[5]最长回文子串.go" />
               <option name="titleSlug" value="longest-palindromic-substring" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[61]旋转链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[61]旋转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn61" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[61]旋转链表.go" />
+              <option name="titleSlug" value="rotate-list" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -1,31 +1,31 @@
 package main
 
 // leetcode submit region begin(Prohibit modification and deletion)
-type stack struct {
+type simpleStack struct {
 	l []int
 }
 
-func (s *stack) len() int {
+func (s *simpleStack) len() int {
 	return len(s.l)
 }
 
-func (s *stack) push(x int) {
+func (s *simpleStack) push(x int) {
 	s.l = append(s.l, x)
 }
 
-func (s *stack) pop() int {
+func (s *simpleStack) pop() int {
 	res := s.l[s.len()-1]
 	s.l = s.l[0 : s.len()-1]
 	return res
 }
 
-func (s *stack) peek() int {
+func (s *simpleStack) peek() int {
 	return s.l[s.len()-1]
 }
 
 type MyQueue struct {
-	s1 stack
-	s2 stack
+	s1 simpleStack
+	s2 simpleStack
 }
 
 func Constructor_232() MyQueue {

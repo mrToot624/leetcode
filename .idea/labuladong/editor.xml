@@ -432,6 +432,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[239]滑动窗口最大值.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[239]滑动窗口最大值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn239" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[239]滑动窗口最大值.go" />
+              <option name="titleSlug" value="sliding-window-maximum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[23]合并 K 个升序链表.go">
           <value>
             <LeetcodeEditor>
@@ -597,6 +608,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[380]O(1) 时间插入、删除和获取随机元素.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[380]O(1) 时间插入、删除和获取随机元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn380" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[380]O(1) 时间插入、删除和获取随机元素.go" />
+              <option name="titleSlug" value="insert-delete-getrandom-o1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[39]组合总和.go">
           <value>
             <LeetcodeEditor>
@@ -652,6 +674,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[460]LFU 缓存.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[460]LFU 缓存.md" />
+              <option name="frontendQuestionId" value="leetcode.cn460" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[460]LFU 缓存.go" />
+              <option name="titleSlug" value="lfu-cache" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[46]全排列.go">
           <value>
             <LeetcodeEditor>
@@ -693,6 +726,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[493]翻转对.go" />
               <option name="titleSlug" value="reverse-pairs" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[496]下一个更大元素 I.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[496]下一个更大元素 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cn496" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[496]下一个更大元素 I.go" />
+              <option name="titleSlug" value="next-greater-element-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[503]下一个更大元素 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[503]下一个更大元素 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn503" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[503]下一个更大元素 II.go" />
+              <option name="titleSlug" value="next-greater-element-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -861,6 +916,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[710]黑名单中的随机数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[710]黑名单中的随机数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn710" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[710]黑名单中的随机数.go" />
+              <option name="titleSlug" value="random-pick-with-blacklist" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[72]编辑距离.go">
           <value>
             <LeetcodeEditor>
@@ -869,6 +935,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[72]编辑距离.go" />
               <option name="titleSlug" value="edit-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[739]每日温度.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[739]每日温度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn739" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[739]每日温度.go" />
+              <option name="titleSlug" value="daily-temperatures" />
             </LeetcodeEditor>
           </value>
         </entry>

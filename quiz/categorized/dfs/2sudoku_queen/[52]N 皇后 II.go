@@ -1,6 +1,6 @@
-package main
+package _sudoku_queen
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 func totalNQueens(n int) int {
 	var res int
 
@@ -51,4 +51,5 @@ func isConflicted_52(board [][]bool, level, col int) bool {
 
 	return false
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

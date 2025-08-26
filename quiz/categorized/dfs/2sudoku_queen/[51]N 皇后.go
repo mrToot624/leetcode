@@ -1,8 +1,8 @@
-package main
+package _sudoku_queen
 
 import "strings"
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 func solveNQueens(n int) [][]string {
 	var res [][]string
 
@@ -48,13 +48,11 @@ func isConflicted_51(board [][]string, level, col int) bool {
 		}
 	}
 
-
 	for i, j := level-1, col-1; i >= 0 && j >= 0; i, j = i-1, j-1 {
 		if board[i][j] == "Q" {
 			return true
 		}
 	}
-
 
 	for i, j := level-1, col+1; i >= 0 && j < len(board); i, j = i-1, j+1 {
 		if board[i][j] == "Q" {
@@ -64,4 +62,5 @@ func isConflicted_51(board [][]string, level, col int) bool {
 
 	return false
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

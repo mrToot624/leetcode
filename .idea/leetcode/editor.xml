@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1020]飞地的数量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[1020]飞地的数量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1020" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1020]飞地的数量.go" />
+              <option name="titleSlug" value="number-of-enclaves" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[111]二叉树的最小深度.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[111]二叉树的最小深度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn111" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[111]二叉树的最小深度.go" />
+              <option name="titleSlug" value="minimum-depth-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1254]统计封闭岛屿的数目.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[1254]统计封闭岛屿的数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1254" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1254]统计封闭岛屿的数目.go" />
+              <option name="titleSlug" value="number-of-closed-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[141]环形链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[141]环形链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn141" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[141]环形链表.go" />
+              <option name="titleSlug" value="linked-list-cycle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[142]环形链表 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[142]环形链表 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn142" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[142]环形链表 II.go" />
+              <option name="titleSlug" value="linked-list-cycle-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[160]相交链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[160]相交链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn160" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[160]相交链表.go" />
+              <option name="titleSlug" value="intersection-of-two-linked-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[16]最接近的三数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[16]最接近的三数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn16" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[16]最接近的三数之和.go" />
+              <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1905]统计子岛屿.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[1905]统计子岛屿.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1905" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[1905]统计子岛屿.go" />
+              <option name="titleSlug" value="count-sub-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[19]删除链表的倒数第 N 个结点.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[19]删除链表的倒数第 N 个结点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn19" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[19]删除链表的倒数第 N 个结点.go" />
+              <option name="titleSlug" value="remove-nth-node-from-end-of-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[200]岛屿数量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[200]岛屿数量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn200" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[200]岛屿数量.go" />
+              <option name="titleSlug" value="number-of-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[216]组合总和 III.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[216]组合总和 III.md" />
+              <option name="frontendQuestionId" value="leetcode.cn216" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[216]组合总和 III.go" />
+              <option name="titleSlug" value="combination-sum-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[21]合并两个有序链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[21]合并两个有序链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn21" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[21]合并两个有序链表.go" />
+              <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[23]合并 K 个升序链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[23]合并 K 个升序链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn23" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[23]合并 K 个升序链表.go" />
+              <option name="titleSlug" value="merge-k-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[2]两数相加.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[2]两数相加.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[2]两数相加.go" />
+              <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[34]在排序数组中查找元素的第一个和最后一个位置.md" />
+              <option name="frontendQuestionId" value="leetcode.cn34" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[34]在排序数组中查找元素的第一个和最后一个位置.go" />
+              <option name="titleSlug" value="find-first-and-last-position-of-element-in-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[37]解数独.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[37]解数独.md" />
+              <option name="frontendQuestionId" value="leetcode.cn37" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[37]解数独.go" />
+              <option name="titleSlug" value="sudoku-solver" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[39]组合总和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[39]组合总和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn39" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[39]组合总和.go" />
+              <option name="titleSlug" value="combination-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[40]组合总和 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[40]组合总和 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn40" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[40]组合总和 II.go" />
+              <option name="titleSlug" value="combination-sum-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[45]跳跃游戏 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[45]跳跃游戏 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn45" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[45]跳跃游戏 II.go" />
+              <option name="titleSlug" value="jump-game-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[46]全排列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[46]全排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn46" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[46]全排列.go" />
+              <option name="titleSlug" value="permutations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[47]全排列 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[47]全排列 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn47" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[47]全排列 II.go" />
+              <option name="titleSlug" value="permutations-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[695]岛屿的最大面积.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[695]岛屿的最大面积.md" />
+              <option name="frontendQuestionId" value="leetcode.cn695" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[695]岛屿的最大面积.go" />
+              <option name="titleSlug" value="max-area-of-island" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[752]打开转盘锁.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[752]打开转盘锁.md" />
+              <option name="frontendQuestionId" value="leetcode.cn752" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[752]打开转盘锁.go" />
+              <option name="titleSlug" value="open-the-lock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[773]滑动谜题.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[773]滑动谜题.md" />
+              <option name="frontendQuestionId" value="leetcode.cn773" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[773]滑动谜题.go" />
+              <option name="titleSlug" value="sliding-puzzle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[77]组合.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[77]组合.md" />
+              <option name="frontendQuestionId" value="leetcode.cn77" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[77]组合.go" />
+              <option name="titleSlug" value="combinations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[78]子集.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[78]子集.md" />
+              <option name="frontendQuestionId" value="leetcode.cn78" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[78]子集.go" />
+              <option name="titleSlug" value="subsets" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[86]分隔链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[86]分隔链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn86" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[86]分隔链表.go" />
+              <option name="titleSlug" value="partition-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[876]链表的中间结点.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[876]链表的中间结点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn876" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[876]链表的中间结点.go" />
+              <option name="titleSlug" value="middle-of-the-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[90]子集 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[90]子集 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn90" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[90]子集 II.go" />
+              <option name="titleSlug" value="subsets-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[919]完全二叉树插入器.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[919]完全二叉树插入器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn919" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[919]完全二叉树插入器.go" />
+              <option name="titleSlug" value="complete-binary-tree-inserter" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/quiz/leetcode/editor/cn/[967]连续差相同的数字.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/doc/content/[967]连续差相同的数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn967" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/quiz/leetcode/editor/cn/[967]连续差相同的数字.go" />
+              <option name="titleSlug" value="numbers-with-same-consecutive-differences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

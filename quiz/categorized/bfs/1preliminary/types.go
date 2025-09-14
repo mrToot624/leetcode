@@ -1,4 +1,4 @@
-package main
+package _preliminary
 
 // 链表
 type ListNode struct {

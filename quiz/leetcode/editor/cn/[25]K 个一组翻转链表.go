@@ -31,7 +31,7 @@ func iterateReverseKGroup(head *ListNode, k int) *ListNode {
 	dummy := &ListNode{Next: head}
 	prevTail, curGroupHead := dummy, head
 
-	for true {
+	for {
 		newHead, isReversed := iterateReverseTopK(curGroupHead, k)
 		if !isReversed {
 			break
@@ -65,4 +65,5 @@ func iterateReverseTopK(head *ListNode, k int) (*ListNode, bool) {
 
 	return dummy.Next, true
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

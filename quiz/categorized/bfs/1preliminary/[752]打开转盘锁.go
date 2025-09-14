@@ -1,6 +1,6 @@
-package main
+package _preliminary
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 func openLock(deadends []string, target string) int {
 	if target == "0000" {
 		return 0
@@ -70,4 +70,5 @@ func scaleDown(s string, index int) string {
 	}
 	return string(bytes)
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

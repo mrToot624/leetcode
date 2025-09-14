@@ -1,11 +1,11 @@
-package main
+package _preliminary
 
 import (
 	"strconv"
 	"strings"
 )
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 func slidingPuzzle(board [][]int) int {
 	boardStr := boardToString(board)
 	ans := "123450"
@@ -65,7 +65,7 @@ func shiftedBoards(boardStr string) []string {
 
 func findSwaps(i, m, n int) []int {
 	var res []int
-	if i - n >= 0 {
+	if i-n >= 0 {
 		res = append(res, i-n)
 	}
 	if i+n <= m*n-1 {
@@ -89,4 +89,5 @@ func boardToString(board [][]int) string {
 	}
 	return builder.String()
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

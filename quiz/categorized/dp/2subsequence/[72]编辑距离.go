@@ -1,6 +1,6 @@
-package main
+package _subsequence
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 func minDistance(word1 string, word2 string) int {
 	m, n := len(word1), len(word2)
 	dp := make([][]int, m+1) // minDistance of word1 and word2, when len(word1) = i, len(word2) = j
@@ -18,10 +18,10 @@ func minDistance(word1 string, word2 string) int {
 				dp[i][j] = dp[i-1][j-1] // skip
 			} else {
 				dp[i][j] = minOFThree(
-						dp[i-1][j-1], // replace
-						dp[i][j-1], // insert
-						dp[i-1][j], // remove
-					) + 1
+					dp[i-1][j-1], // replace
+					dp[i][j-1],   // insert
+					dp[i-1][j],   // remove
+				) + 1
 			}
 		}
 	}
@@ -39,4 +39,5 @@ func minOFThree(a, b, c int) int {
 	}
 	return min
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

@@ -14,11 +14,17 @@ type TreeNode struct {
 }
 
 // 完美二叉树
+//type Node struct {
+//	Val   int
+//	Left  *Node
+//	Right *Node
+//	Next  *Node
+//}
+
+// N叉树
 type Node struct {
-	Val   int
-	Left  *Node
-	Right *Node
-	Next  *Node
+	Val      int
+	Children []*Node
 }
 
 // This is the interface that allows for creating nested lists.

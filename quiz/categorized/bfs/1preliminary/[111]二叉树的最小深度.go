@@ -1,4 +1,4 @@
-package main
+package _preliminary
 
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
@@ -40,4 +40,5 @@ func minDepth(root *TreeNode) int {
 
 	return depth
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

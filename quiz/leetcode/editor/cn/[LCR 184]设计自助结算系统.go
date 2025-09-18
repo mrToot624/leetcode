@@ -6,7 +6,7 @@ type Checkout struct {
 	q  []int
 }
 
-func Constructor() Checkout {
+func Constructor_lcr184() Checkout {
 	return Checkout{[]int{}, []int{}}
 }
 

@@ -8,23 +8,25 @@ package main
  *     Next *ListNode
  * }
  */
-func deleteDuplicates_83(head *ListNode) *ListNode {
+func deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
 
-	slow, fast := head, head.Next
-	for fast != nil {
-		if slow.Val == fast.Val {
-			slow.Next = fast.Next
-			fast = fast.Next
+	dummy := &ListNode{Next: head}
+
+	cur := dummy
+	for cur.Next != nil && cur.Next.Next != nil {
+		if cur.Next.Val == cur.Next.Next.Val {
+			v := cur.Next.Val
+			for cur.Next != nil && cur.Next.Val == v {
+				cur.Next = cur.Next.Next
+			}
 		} else {
-			slow = slow.Next
-			fast = fast.Next
+			cur = cur.Next
 		}
 	}
-
-	return head
+	return dummy.Next
 }
 
 //leetcode submit region end(Prohibit modification and deletion)

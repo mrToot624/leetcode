@@ -1,7 +1,7 @@
 package main
 
 // leetcode submit region begin(Prohibit modification and deletion)
-func removeDuplicates(nums []int) int {
+func removeDuplicates_26(nums []int) int {
 	slow, fast := 0, 1
 	for fast < len(nums) {
 		if nums[slow] != nums[fast] {

@@ -3,12 +3,12 @@ package main
 import "math/rand"
 
 // leetcode submit region begin(Prohibit modification and deletion)
-type Solution struct {
+type Solution_710 struct {
 	sep   int
 	remap map[int]int
 }
 
-func Constructor_710(n int, blacklist []int) Solution {
+func Constructor_710(n int, blacklist []int) Solution_710 {
 	blackSet := make(map[int]bool)
 	for _, i := range blacklist {
 		blackSet[i] = true
@@ -27,10 +27,10 @@ func Constructor_710(n int, blacklist []int) Solution {
 		remap[blackNum] = whiteNum
 		whiteNum--
 	}
-	return Solution{sep, remap}
+	return Solution_710{sep, remap}
 }
 
-func (this *Solution) Pick() int {
+func (this *Solution_710) Pick() int {
 	num := rand.Intn(this.sep)
 	if whiteNum, ok := this.remap[num]; ok {
 		return whiteNum

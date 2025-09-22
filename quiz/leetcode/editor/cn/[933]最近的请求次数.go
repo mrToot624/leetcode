@@ -1,15 +1,13 @@
 package main
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 type RecentCounter struct {
-    q []int
+	q []int
 }
 
-
-func Constructor() RecentCounter {
-    return RecentCounter{[]int{}}
+func Constructor_933() RecentCounter {
+	return RecentCounter{[]int{}}
 }
-
 
 func (this *RecentCounter) Ping(t int) int {
 	for len(this.q) > 0 && this.q[0] < t-3000 {
@@ -18,7 +16,6 @@ func (this *RecentCounter) Ping(t int) int {
 	this.q = append(this.q, t)
 	return len(this.q)
 }
-
 
 /**
  * Your RecentCounter object will be instantiated and called as such:

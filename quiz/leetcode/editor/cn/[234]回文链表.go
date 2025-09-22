@@ -8,7 +8,7 @@ package main
  *     Next *ListNode
  * }
  */
-func isPalindrome(head *ListNode) bool {
+func isPalindrome_234(head *ListNode) bool {
 	slow, fast := head, head
 	for fast != nil && fast.Next != nil {
 		slow = slow.Next
@@ -33,4 +33,5 @@ func isPalindrome(head *ListNode) bool {
 	}
 	return true
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

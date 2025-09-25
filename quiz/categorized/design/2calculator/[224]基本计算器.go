@@ -3,7 +3,7 @@ package main
 import "unicode"
 
 // leetcode submit region begin(Prohibit modification and deletion)
-func calculate(s string) int {
+func calculate_224(s string) int {
 	op := '+'
 	var sum int
 	var opBeforeP []byte

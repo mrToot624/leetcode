@@ -2,17 +2,17 @@ package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
- * Definition for a Node.
- * type Node struct {
+ * Definition for a NTree.
+ * type NTree struct {
  *     Val int
- *     Children []*Node
+ *     Children []*NTree
  * }
  */
 
-func postorder(root *Node) []int {
-    var res []int
-	var traverse func(root *Node)
-	traverse = func(root *Node) {
+func postorder(root *NTree) []int {
+	var res []int
+	var traverse func(root *NTree)
+	traverse = func(root *NTree) {
 		if root == nil {
 			return
 		}
@@ -25,4 +25,5 @@ func postorder(root *Node) []int {
 	traverse(root)
 	return res
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

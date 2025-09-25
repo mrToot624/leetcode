@@ -3,19 +3,19 @@ package main
 import "math/rand"
 
 // leetcode submit region begin(Prohibit modification and deletion)
-type Solution struct {
+type Solution_398 struct {
 	targetIndex map[int][]int
 }
 
-func Constructor(nums []int) Solution {
+func Constructor_398(nums []int) Solution_398 {
 	targetIndexMap := make(map[int][]int)
 	for i, num := range nums {
 		targetIndexMap[num] = append(targetIndexMap[num], i)
 	}
-	return Solution{targetIndexMap}
+	return Solution_398{targetIndexMap}
 }
 
-func (this *Solution) Pick(target int) int {
+func (this *Solution_398) Pick(target int) int {
 	return this.targetIndex[target][rand.Intn(len(this.targetIndex[target]))]
 }
 

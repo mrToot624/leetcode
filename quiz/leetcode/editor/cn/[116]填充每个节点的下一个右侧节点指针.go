@@ -2,16 +2,16 @@ package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
- * Definition for a Node.
- * type Node struct {
+ * Definition for a NTree.
+ * type NTree struct {
  *     Val int
- *     Left *Node
- *     Right *Node
- *     Next *Node
+ *     Left *NTree
+ *     Right *NTree
+ *     Next *NTree
  * }
  */
 
-func connect(root *Node) *Node {
+func connect_116(root *Node) *Node {
 	if root == nil {
 		return root
 	}
@@ -60,4 +60,5 @@ func bfsConnect(root *Node) *Node {
 	}
 	return root
 }
+
 //leetcode submit region end(Prohibit modification and deletion)

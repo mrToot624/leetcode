@@ -5,31 +5,34 @@ package main
  * Definition for a NTree.
  * type NTree struct {
  *     Val int
- *     Children []*NTree
+ *     Left *NTree
+ *     Right *NTree
+ *     Next *NTree
  * }
  */
 
-func levelOrder_429(root *NTree) [][]int {
-	var res [][]int
+func connect(root *Node) *Node {
 	if root == nil {
-		return res
+		return nil
 	}
-
-	q := []*NTree{root}
+	q := []*Node{root}
 	for len(q) > 0 {
 		l := len(q)
-		level := make([]int, l)
 		for i := 0; i < l; i++ {
-			top := q[0]
+			cur := q[0]
 			q = q[1:]
-			level[i] = top.Val
-			for _, child := range top.Children {
-				q = append(q, child)
+			if i < l-1 {
+				cur.Next = q[0]
+			}
+			if cur.Left != nil {
+				q = append(q, cur.Left)
+			}
+			if cur.Right != nil {
+				q = append(q, cur.Right)
 			}
 		}
-		res = append(res, level)
 	}
-	return res
+	return root
 }
 
 //leetcode submit region end(Prohibit modification and deletion)

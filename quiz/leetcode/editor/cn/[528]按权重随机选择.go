@@ -10,7 +10,7 @@ type Solution struct {
 	preSum []int
 }
 
-func Constructor(w []int) Solution {
+func Constructor_528(w []int) Solution {
 	preSum := make([]int, len(w)+1)
 	for i := 0; i < len(w); i++ {
 		preSum[i+1] = preSum[i] + w[i]
